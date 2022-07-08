@@ -1,0 +1,9 @@
+@namespace("myapp.generated.avro")
+protocol TwitterventFeedback{
+	record TwitterEventFeedbackDto {
+		string eventId;
+		string twitterAccount;
+		string twitterHashTags;
+		string twitterMessage;
+	}
+}

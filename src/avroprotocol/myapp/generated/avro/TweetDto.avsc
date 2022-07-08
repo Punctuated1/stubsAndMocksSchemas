@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "TweetDto",
+  "namespace" : "myapp.generated.avro",
+  "fields" : [ {
+    "name" : "twitterAccount",
+    "type" : "string"
+  }, {
+    "name" : "twitterHashTags",
+    "type" : "string"
+  }, {
+    "name" : "twitterMessage",
+    "type" : "string"
+  } ]
+}

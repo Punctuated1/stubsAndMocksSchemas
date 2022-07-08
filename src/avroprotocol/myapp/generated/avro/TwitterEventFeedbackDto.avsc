@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "TwitterEventFeedbackDto",
+  "namespace" : "myapp.generated.avro",
+  "fields" : [ {
+    "name" : "eventId",
+    "type" : "string"
+  }, {
+    "name" : "twitterAccount",
+    "type" : "string"
+  }, {
+    "name" : "twitterHashTags",
+    "type" : "string"
+  }, {
+    "name" : "twitterMessage",
+    "type" : "string"
+  } ]
+}

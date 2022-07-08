@@ -1,0 +1,8 @@
+@namespace("myapp.generated.avro")
+protocol Tweet{
+	record TweetDto {
+		string twitterAccount;
+		string twitterHashTags;
+		string twitterMessage;
+	}
+}
